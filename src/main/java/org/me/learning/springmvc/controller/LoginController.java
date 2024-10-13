@@ -1,4 +1,4 @@
-package org.me.learning.springmvc;
+package org.me.learning.springmvc.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
