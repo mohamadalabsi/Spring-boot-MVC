@@ -36,9 +36,15 @@ public class ProductController {
 
 //    @RequestMapping()
     @PostMapping ("/products")
-   public void  addProduct(@RequestBody Product product){ // we use RequestBody if u send a body from the client to the server
+   public void  addProduct(@RequestBody Product product){ // we use RequestBody if u send a body from the client to the server , to get the data from request
         productService.addProduct(product);
    }
+
+//!    PUT
+    @PutMapping ("/products")
+    public void  updateProduct(@RequestBody Product product){ // we use RequestBody if u send a body from the client to the server , to get the data from request
+        productService.updateProduct(product);
+    }
 
 
 }
