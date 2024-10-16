@@ -47,4 +47,10 @@ public class ProductController {
     }
 
 
+    //!    DELETE
+    @DeleteMapping ("/products/{prodID}")
+    public void  deleteProduct(@PathVariable int prodID){ // we use RequestBody if u send a body from the client to the server , to get the data from request
+        productService.deleteProduct(prodID);
+    }
+
 }
