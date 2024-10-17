@@ -9,6 +9,7 @@ import java.util.List;
 
 @Service
 public class ProductService {
+//    the job of the Service tho calculate and processing  and these stuff
 
 //    we need a methode that return a list of products
 

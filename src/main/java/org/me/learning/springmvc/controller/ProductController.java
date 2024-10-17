@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 public class ProductController {
-
+//    the job of the controller is to send and handel the request
     @Autowired
     ProductService productService;
 //?     the data will be converted from Object to json and the other way around automatically using the library jackson
