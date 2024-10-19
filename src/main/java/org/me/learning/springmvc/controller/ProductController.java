@@ -4,7 +4,7 @@ package org.me.learning.springmvc.controller;
 
 //the is responsible to accept the request for the products
 
-import org.apache.catalina.Service;
+
 import org.me.learning.springmvc.model.Product;
 import org.me.learning.springmvc.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
