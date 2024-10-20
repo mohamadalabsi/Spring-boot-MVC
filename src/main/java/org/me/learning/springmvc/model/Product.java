@@ -2,14 +2,19 @@ package org.me.learning.springmvc.model;
 
 
 //import lombok.AllArgsConstructor;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Data;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 //@Data
 //@AllArgsConstructor //it will make a constructor for me
 @Component
+@Entity
 public class Product {
 
+    @Id
     private int prodID;
     private String prodName;
     private int prodPrice;
